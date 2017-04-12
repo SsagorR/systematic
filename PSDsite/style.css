@@ -50,7 +50,7 @@ body {
 }
 
 header {
-	height: 150px;
+	height: 100px;
 }
 
 header span {
@@ -104,8 +104,38 @@ header span {
 	background-color: #ff9933;
 }
 
+nav {
+	height: 41px;
+	width: 100%;
 
 
+}
+
+nav ul {
+	list-style-type: none;
+	background-color: rgb(51, 51, 51);
+	margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 5px;
+	height: 41px;
+	font-size: 15px;
+		color: white;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-top: 13px;
+	margin-left: 20px;
+}
+
+nav a {
+		text-decoration: none;
+		color: white;
+}
+
+nav a:hover {
+	color: rgb(186, 46, 31);
+}
 
 
 
